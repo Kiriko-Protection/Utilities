@@ -2,9 +2,9 @@
 local request = (syn and syn.request) or (http and http.request) or http_request	
 local HttpService = game:GetService("HttpService")
 
-local TextInFile = "TweedLeak#4003"
-local Discord_Invite = "CtKnhbnJa4"
-local FolderName = "Enhanced Software"
+local TextInFile = "TweedLeak#4003" -- Text In File 
+local Discord_Invite = "CtKnhbnJa4" -- Invite Here
+local FolderName = "Enhanced Software" -- Folder Name
 local Folder2 = "/Discord Invites" -- Dont Touch "/"
 local FileName = "/Enhanced Software.gg" -- Dont Touch "/"
 
