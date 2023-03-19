@@ -1123,12 +1123,12 @@ function Material.Load(Config)
 
 		local OptionLibrary = {}
 
-		function OptionLibrary:Separator()
+		function OptionLibrary.Separator(SeparatorConfig)
 			SeparatorConfig = typeof(SeparatorConfig) == "table" and SeparatorConfig or {}
 
 			local Separator_Visible = typeof(SeparatorConfig.Visible) ~= "boolean" and true or SeparatorConfig.Visible
 
-			local SeparatorContainer = Objects:New("Round")
+			local SeparatorContainer = Objects.new("Round")
 			SeparatorContainer.Name = "Separator"
 			SeparatorContainer.Size = UDim2.fromScale(1, 0) + UDim2.fromOffset(0, 3)
 			SeparatorContainer.ImageColor3 = ThisTheme.Button
