@@ -51,8 +51,8 @@ local ThemeManager = {} do
 	end
 
 	function ThemeManager:LoadDefault()		
-		local theme = 'Enhanced Software'
-		local content = 'Enhanced Software'
+		local theme = 'Mint'
+		local content = 'Mint'
 
 		local isDefault = true
 		if content then
