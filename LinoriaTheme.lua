@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-	  ['Enhanced Software'] = { 1, httpService:JSONDecode('{"MainColor":"181825","AccentColor":"5f41ff","OutlineColor":"323232","BackgroundColor":"16161f","FontColor":"ffffff"}') },
+	  ['Purple'] = { 1, httpService:JSONDecode('{"MainColor":"181825","AccentColor":"5f41ff","OutlineColor":"323232","BackgroundColor":"16161f","FontColor":"ffffff"}') },
 		['Red Theme'] 		= { 2, httpService:JSONDecode('{"MainColor":"15151b","AccentColor":"ff004c","OutlineColor":"1a1a20","BackgroundColor":"111117","FontColor":"ffffff"}') },
 		['Default'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['Dracula'] 		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232533","AccentColor":"6271a5","BackgroundColor":"1b1c27","OutlineColor":"7c82a7"}') },
