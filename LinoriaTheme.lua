@@ -17,7 +17,7 @@ local ThemeManager = {} do
 		['Mint'] 			= { 10, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Tokyo Night'] 	= { 11, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Ubuntu'] 			= { 12, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
-		['Purple V2'] = = { 13, httpService:JSONDecode('{"MainColor":"1c1b1b","AccentColor":"871dff","OutlineColor":"343131","BackgroundColor":"171717","FontColor":"ffffff"}') },
+		['Purple V2'] = { 13, httpService:JSONDecode('{"MainColor":"1c1b1b","AccentColor":"871dff","OutlineColor":"343131","BackgroundColor":"171717","FontColor":"ffffff"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
